@@ -1,0 +1,77 @@
+.exercise-table-container {
+  margin: 20px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.table-wrapper {
+  overflow-x: auto; 
+}
+
+.exercise-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-table th, .exercise-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.exercise-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.action-button:hover {
+  color: #007bff;
+}
+
+.edit-button {
+  color: #28a745;
+  margin-right: 8px;
+}
+
+.delete-button {
+  color: #dc3545;
+}
+
+.edit-button:hover {
+  color: #218838;
+}
+
+.delete-button:hover {
+  color: #c82333;
+}
+
+/* Media Query for small devices */
+@media (max-width: 768px) {
+  .exercise-table th, .exercise-table td {
+      font-size: 14px;
+  }
+}
